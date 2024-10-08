@@ -5,7 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon index.ts"
+    "start": "node index.js",
+    "watch": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,15 +22,17 @@
     "@types/lodash": "^4.14.165",
     "@types/node": "^14.14.9",
     "aws-sdk": "^2.797.0",
-    "discord.js": "^11.3.2",
+    "discord.js": "^13.0.0",
     "lodash": "^4.17.20",
     "nodemon": "^1.19.4",
     "ts-node": "^9.0.0",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "sodium-native": "^3.3.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
-    "eslint": "^7.14.0"
+    "eslint": "^7.14.0",
+    "nodemon": "^2.0.22"
   }
 }
